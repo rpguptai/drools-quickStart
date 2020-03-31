@@ -3,10 +3,10 @@
          xmlns="http://www.drools.org/xsd/kmodule">
 
     <kbase name="point-rulesKB" packages="rules">
-        <ksession name="point-rulesKS"/>
+        <ksession name="point-rulesKS" type="stateless"/>
     </kbase>
 
     <kbase name="HelloWorldKB" packages="rules">
-        <ksession name="HelloWorldKS"/>
+        <ksession name="HelloWorldKS" type="stateless"/>
     </kbase>
 </kmodule>
